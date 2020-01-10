@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  padding-top: 50px;
+  background-color: #0F1B26;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+MAIN {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 56px;
+  height: 3000px;
+}
+
+.navbar {
+  background-color: #0F1B26;
+  color: white;
+  border-bottom: 2px solid #F2C1BD;
+  transition: top 0.3s;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar-hide {
+  top: -56px;
+}
+
+.navbar-brand img {
+  height: 30px;
+  max-width: 60vw;
+}
+
+.section {
+  background-color: #0F1B26;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 80px;
+  border-bottom: 2px solid #F2C1BD;
+  min-height: 100vh;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  max-width: 100vw;
+}
+
+#title-page {
+  height: calc(100vh - 50px);
+  border-bottom: 2px solid #F2C1BD;
+}
+
+#title #main-title {
+  position: fixed;
+  height: 65px;
+  max-width: 100vw;
+  top: -moz-calc(50% - 65px);
+  top: -webkit-calc(50% - 65px);
+  top: -o-calc(50% - 65px);
+  top: calc(50% - 65px);
+  z-index: -1;
+}
+
+#title #sub-title {
+  position: fixed;
+  height: 20px;
+  max-width: 100vw;
+  top: -moz-calc(50% + 10px);
+  top: -webkit-calc(50% + 10px);
+  top: -o-calc(50% + 10px);
+  top: calc(50% + 10px);
+  z-index: -1;
+}
+
+#title-page {
+  height: calc(100vh - 50px);
+  border-bottom: 2px solid #F2C1BD;
+}
+
+#title-image {
+  min-height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  margin: 0;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+  filter: brightness(50%);
+}
+
+#title #main-title {
+  position: fixed;
+  height: 65px;
+  max-width: 100vw;
+  top: -moz-calc(50% - 65px);
+  top: -webkit-calc(50% - 65px);
+  top: -o-calc(50% - 65px);
+  top: calc(50% - 65px);
+  z-index: -1;
+}
+
+#title #sub-title {
+  position: fixed;
+  height: 20px;
+  max-width: 100vw;
+  top: -moz-calc(50% + 10px);
+  top: -webkit-calc(50% + 10px);
+  top: -o-calc(50% + 10px);
+  top: calc(50% + 10px);
+  z-index: -1;
+}
+
+/*# sourceMappingURL=home-styles.css.map */

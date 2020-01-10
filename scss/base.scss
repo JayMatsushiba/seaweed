@@ -1,0 +1,95 @@
+// theme fonts
+$title-font: 'Overpass Mono', monospace;
+$main-font: 'Roboto', sans-serif;
+
+// theme colours
+$lightest-color: white;
+$light-color: #F2C1BD;
+$dark-color: #324759;
+$darkest-color: #0F1B26;
+
+html {
+    scroll-behavior: smooth;
+    body {
+        padding-top: 50px;
+        background-color: $darkest-color;
+        color: $lightest-color;
+        font-family: $main-font;
+    }
+}
+
+MAIN {
+    padding: { top: 30px; bottom: 30px; }
+    margin-top: 56px;
+    height: 3000px;
+}
+
+.navbar {
+	background-color:$darkest-color;
+    color: $lightest-color;
+    border-bottom: 2px solid $light-color;
+    transition: top 0.3s;
+    a {
+        text-decoration: none;
+    }
+}
+
+.navbar-hide {
+    top: -56px;
+}
+
+.navbar-brand img {
+    height: 30px;
+    max-width: 60vw;
+}
+
+.section {
+    background-color: $darkest-color;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 80px;
+    border-bottom: 2px solid $light-color;
+    min-height: 100vh;
+}
+
+.heading {
+    margin-bottom: 1.5rem;
+    max-width: 100vw;
+}
+
+// LANDING PAGE 
+
+#title-page {
+    height: calc(100vh - 50px);
+    border-bottom: 2px solid $light-color;
+}
+
+// size of title image
+    // add media response here so that title changes size with viewport size 
+$main-title-height: 65px;
+$sub-title-height: 20px;
+
+#title #main-title {
+    position: fixed;
+    height: $main-title-height;
+    max-width: 100vw;
+    top: -moz-calc(50% - #{$main-title-height});
+    top: -webkit-calc(50% - #{$main-title-height});
+    top: -o-calc(50% - #{$main-title-height});
+    top: calc(50% - #{$main-title-height});
+    z-index: -1;
+}
+
+// spacing between titles
+$title-spacing: 10px;
+
+#title #sub-title {
+    position: fixed;
+    height: $sub-title-height;
+    max-width: 100vw;
+    top: -moz-calc(50% + #{$title-spacing});
+    top: -webkit-calc(50% + #{$title-spacing});
+    top: -o-calc(50% + #{$title-spacing});
+    top: calc(50% + #{$title-spacing});
+    z-index: -1;
+}
