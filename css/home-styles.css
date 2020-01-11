@@ -53,11 +53,6 @@ MAIN {
   border-bottom: 2px solid #F2C1BD;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 #title-page {
   height: calc(100vh - 50px);
   border-bottom: 2px solid #F2C1BD;
