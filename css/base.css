@@ -53,26 +53,4 @@ MAIN {
   border-bottom: 2px solid #F2C1BD;
 }
 
-#title #main-title {
-  position: fixed;
-  height: 65px;
-  max-width: 100vw;
-  top: -moz-calc(50% - 65px);
-  top: -webkit-calc(50% - 65px);
-  top: -o-calc(50% - 65px);
-  top: calc(50% - 65px);
-  z-index: -1;
-}
-
-#title #sub-title {
-  position: fixed;
-  height: 20px;
-  max-width: 100vw;
-  top: -moz-calc(50% + 10px);
-  top: -webkit-calc(50% + 10px);
-  top: -o-calc(50% + 10px);
-  top: calc(50% + 10px);
-  z-index: -1;
-}
-
 /*# sourceMappingURL=base.css.map */

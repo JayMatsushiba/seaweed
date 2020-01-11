@@ -53,28 +53,6 @@ MAIN {
   border-bottom: 2px solid #F2C1BD;
 }
 
-#title #main-title {
-  position: fixed;
-  height: 65px;
-  max-width: 100vw;
-  top: -moz-calc(50% - 65px);
-  top: -webkit-calc(50% - 65px);
-  top: -o-calc(50% - 65px);
-  top: calc(50% - 65px);
-  z-index: -1;
-}
-
-#title #sub-title {
-  position: fixed;
-  height: 20px;
-  max-width: 100vw;
-  top: -moz-calc(50% + 10px);
-  top: -webkit-calc(50% + 10px);
-  top: -o-calc(50% + 10px);
-  top: calc(50% + 10px);
-  z-index: -1;
-}
-
 #title-page {
   height: calc(100vh - 50px);
   border-bottom: 2px solid #F2C1BD;
@@ -93,26 +71,23 @@ MAIN {
   filter: brightness(50%);
 }
 
-#title #main-title {
+#title {
   position: fixed;
-  height: 65px;
-  max-width: 100vw;
-  top: -moz-calc(50% - 65px);
-  top: -webkit-calc(50% - 65px);
-  top: -o-calc(50% - 65px);
-  top: calc(50% - 65px);
+  max-width: 100%;
+  top: 35%;
   z-index: -1;
 }
 
+#title #main-title {
+  display: block;
+  text-transform: uppercase;
+  font-size: calc(24px + 3vw);
+}
+
 #title #sub-title {
-  position: fixed;
-  height: 20px;
-  max-width: 100vw;
-  top: -moz-calc(50% + 10px);
-  top: -webkit-calc(50% + 10px);
-  top: -o-calc(50% + 10px);
-  top: calc(50% + 10px);
-  z-index: -1;
+  display: block;
+  font-weight: 100;
+  font-size: calc(16px + 1.5vw);
 }
 
 /*# sourceMappingURL=home-styles.css.map */

@@ -69,27 +69,3 @@ MAIN {
 $main-title-height: 65px;
 $sub-title-height: 20px;
 
-#title #main-title {
-    position: fixed;
-    height: $main-title-height;
-    max-width: 100vw;
-    top: -moz-calc(50% - #{$main-title-height});
-    top: -webkit-calc(50% - #{$main-title-height});
-    top: -o-calc(50% - #{$main-title-height});
-    top: calc(50% - #{$main-title-height});
-    z-index: -1;
-}
-
-// spacing between titles
-$title-spacing: 10px;
-
-#title #sub-title {
-    position: fixed;
-    height: $sub-title-height;
-    max-width: 100vw;
-    top: -moz-calc(50% + #{$title-spacing});
-    top: -webkit-calc(50% + #{$title-spacing});
-    top: -o-calc(50% + #{$title-spacing});
-    top: calc(50% + #{$title-spacing});
-    z-index: -1;
-}
