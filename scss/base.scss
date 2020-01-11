@@ -18,24 +18,13 @@ html {
     }
 }
 
-MAIN {
-    padding: { top: 30px; bottom: 30px; }
-    margin-top: 56px;
-    height: 3000px;
-}
-
 .navbar {
 	background-color:$darkest-color;
     color: $lightest-color;
     border-bottom: 2px solid $light-color;
-    transition: top 0.3s;
     a {
         text-decoration: none;
     }
-}
-
-.navbar-hide {
-    top: -56px;
 }
 
 .navbar-brand img {

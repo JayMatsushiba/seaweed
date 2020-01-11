@@ -8,25 +8,13 @@ html body {
   font-family: "Roboto", sans-serif;
 }
 
-MAIN {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: 56px;
-  height: 3000px;
-}
-
 .navbar {
   background-color: #0F1B26;
   color: white;
   border-bottom: 2px solid #F2C1BD;
-  transition: top 0.3s;
 }
 .navbar a {
   text-decoration: none;
-}
-
-.navbar-hide {
-  top: -56px;
 }
 
 .navbar-brand img {
