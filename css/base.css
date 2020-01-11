@@ -36,6 +36,13 @@ html body {
   max-width: 100vw;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
 #title-page {
   height: calc(100vh - 50px);
   border-bottom: 2px solid #F2C1BD;

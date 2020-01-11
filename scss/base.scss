@@ -46,6 +46,13 @@ html {
     max-width: 100vw;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
 // LANDING PAGE 
 
 #title-page {
