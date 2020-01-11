@@ -53,6 +53,11 @@ MAIN {
   border-bottom: 2px solid #F2C1BD;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 #title-page {
   height: calc(100vh - 50px);
   border-bottom: 2px solid #F2C1BD;
@@ -88,6 +93,10 @@ MAIN {
   display: block;
   font-weight: 100;
   font-size: calc(16px + 1.5vw);
+}
+
+.caption {
+  font-style: italic;
 }
 
 /*# sourceMappingURL=home-styles.css.map */
